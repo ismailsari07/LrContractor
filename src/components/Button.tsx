@@ -3,9 +3,10 @@ import clsx from "clsx";
 type ButtonProps = {
   children: React.ReactNode,
   background: 'green' | 'white',  
+  showArrow?: boolean
 };
 
-export const Button = ({ children, background }: ButtonProps) => {
+export const Button = ({ children, background, showArrow = false }: ButtonProps) => {
   return (
     <div 
         className={clsx(
@@ -14,6 +15,12 @@ export const Button = ({ children, background }: ButtonProps) => {
         )}
     >
         {children}
+
+        {showArrow && (
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.293 12.293L6.707 13.707L13.414 6.99997L6.707 0.292969L5.293 1.70697L9.586 5.99997H0V7.99997H9.586L5.293 12.293Z" fill={background !== 'white' ? "#ECECE6" : "#040000"}/>
+          </svg>
+        )}
     </div>
   );
 };

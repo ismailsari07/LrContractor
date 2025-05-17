@@ -12,11 +12,13 @@ module.exports = {
       },
       colors: {
         background: {
-          1: '#ECECE6',
-          2: '#FFFFFF',
+          light: '#ECECE6', // was 1
+          dark: '#040000',  // was 2
         },
         text: {
           DEFAULT: '#040000',
+          light: "#ECECE6",
+          special: '#f76f53',
         },
         button: {
           bg: '#2e2e2e',
