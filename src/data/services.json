@@ -1,0 +1,114 @@
+[
+  {
+    "id": "apartment-corridors",
+    "title": "Apartment Corridor Renovation",
+    "image": "/images/apartment-corridor.jpeg",
+    "description": [
+      "Modern and functional corridor renovations that elevate your building’s first impression.",
+      "We design with both aesthetics and foot-traffic in mind, ensuring safety and style."
+    ],
+    "features": [
+      "Durable, low-maintenance materials",
+      "Improved lighting and navigation",
+      "Custom floor and wall finishes"
+    ]
+  },
+  {
+    "id": "demolition",
+    "title": "Safe Demolition Services",
+    "image": "/images/demolition.jpg",
+    "description": [
+      "We provide safe and controlled demolition services to clear the way for new possibilities.",
+      "Our team ensures every removal is precise and environmentally responsible."
+    ],
+    "features": [
+      "Certified demolition experts",
+      "Debris removal included",
+      "Minimal disruption to surroundings"
+    ]
+  },
+  {
+    "id": "renovation",
+    "title": "Complete Renovation",
+    "image": "/images/renovation.jpg",
+    "description": [
+      "Full-scale renovation services that blend style, functionality, and your personal vision.",
+      "We manage every aspect of the project, from structure to finishing touches."
+    ],
+    "features": [
+      "End-to-end project management",
+      "Structural + aesthetic transformation",
+      "Budget and timeline transparency"
+    ]
+  },
+  {
+    "id": "framing",
+    "title": "Framing Services",
+    "image": "/images/framing.jpg",
+    "description": [
+      "Solid structural framing that ensures safety, precision, and long-term durability.",
+      "All framing is done to code and customized to your architectural plans."
+    ],
+    "features": [
+      "Wood or metal options",
+      "Precision measurements",
+      "Engineered to support large builds"
+    ]
+  },
+  {
+    "id": "drywall",
+    "title": "Drywall Installation",
+    "image": "/images/drywall.jpg",
+    "description": [
+      "Smooth and seamless drywall installation for a flawless interior finish.",
+      "We specialize in fast and clean wall prep for any room or space."
+    ],
+    "features": [
+      "Quick turnaround",
+      "Patch & repair service available",
+      "Level 5 finish quality"
+    ]
+  },
+  {
+    "id": "plastering",
+    "title": "Plastering Services",
+    "image": "/images/plastering.jpg",
+    "description": [
+      "Expert plastering that delivers elegant, durable surfaces for walls and ceilings.",
+      "We offer both traditional and modern plaster finishes."
+    ],
+    "features": [
+      "Crack-resistant technique",
+      "Smooth or textured finish",
+      "Moisture control layers"
+    ]
+  },
+  {
+    "id": "painting",
+    "title": "Professional Painting",
+    "image": "/images/painting.jpg",
+    "description": [
+      "Bring your space to life with our premium painting services, tailored to your taste.",
+      "We use eco-friendly paints and apply with care and precision."
+    ],
+    "features": [
+      "Interior & exterior options",
+      "Custom color consultation",
+      "Clean and precise work"
+    ]
+  },
+  {
+    "id": "wallpaper-installation",
+    "title": "Wallpaper Installation",
+    "image": "/images/wallpaper.jpg",
+    "description": [
+      "Add personality to your rooms with our professional wallpaper application services.",
+      "We handle precise alignment, trimming, and adhesion with care."
+    ],
+    "features": [
+      "Wide range of patterns",
+      "Seamless installation",
+      "Removable and durable options"
+    ]
+  }
+]

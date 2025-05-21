@@ -12,11 +12,11 @@ module.exports = {
       },
       colors: {
         background: {
-          light: '#ECECE6', // was 1
-          dark: '#040000',  // was 2
+          light: '#ECECE6', 
+          dark: '#2e2e2e',  
         },
         text: {
-          DEFAULT: '#040000',
+          DEFAULT: '#1f1f1f',
           light: "#ECECE6",
           special: '#f76f53',
         },

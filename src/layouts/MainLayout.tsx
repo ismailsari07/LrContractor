@@ -8,7 +8,7 @@ type MainLayoutProps = {
 
 export const MainLayout = ({  }: MainLayoutProps) => {
   return (
-    <div className="flex flex-col min-h-screen bg-background-light">
+    <div className="flex flex-col min-h-screen bg-background-light text-text">
       <Navbar />
 
       <main className="flex-grow">

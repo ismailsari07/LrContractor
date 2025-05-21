@@ -10,7 +10,7 @@ type FooterProps = {
 
 export const Footer = ({  }: FooterProps) => {
   return (
-    <footer className="px-80 py-28 flex flex-col justify-center items-start gap-12 bg-text text-text-light text-lg">
+    <footer className="px-80 py-28 flex flex-col justify-center items-start gap-12 bg-background-dark text-text-light text-lg">
       <div>
         <div className="text-5xl font-semibold font-heading">LrConstruction</div>
         <div className="w-[50%]">Crafted with care, built on trust, and focused on your space — not just the surface. We renovate to elevate.</div>

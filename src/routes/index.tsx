@@ -17,7 +17,7 @@ export const AppRoutes = () => {
                 { path: '/services/:serviceId', element: <ServiceDetail /> },
                 { path: '/about', element: <About /> },
                 { path: '/reservation', element: <Reservation /> },
-                { path: '/contact', element: <Contact /> },
+                { path: '/contact', element: <Contact /> }
             ]
         }
     ]
