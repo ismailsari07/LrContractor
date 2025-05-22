@@ -1,63 +1,56 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import  services  from "../data/services.json";
-import apartmentCorridorImg from "../assets/images/apartment-corridor.jpeg";
+import servicesData from "../data/services.json";
 
-type ServiceDetailProps = {};
+interface Benefit {
+  title: string;
+  text: string;
+}
 
 interface Service {
   id: string;
   title: string;
+  headline: string;
+  description: string;
   image: string;
-  description: string[];
-  features: string[];
+  whyTitle: string;
+  benefits: Benefit[];
 }
 
-export const ServiceDetail = ({ }: ServiceDetailProps) => {
-	const { serviceId } = useParams();
+export const ServiceDetail = () => {
+  const { serviceId } = useParams();
   const [service, setService] = useState<Service | null>(null);
 
   useEffect(() => {
-    const foundService = services.find((s: Service) => s.id === serviceId);
-    setService(foundService || null);
+    const found = (servicesData as Service[]).find((s) => s.id === serviceId);
+    setService(found || null);
   }, [serviceId]);
 
-	if (!service) {
-		return (
-			<div className="min-h-screen flex flex-col items-center justify-center px-60 py-28">
-				<div className="text-3xl font-heading font-semibold">Service Not Found</div>
-			</div>
-		);
-	}
+  if (!service) {
+    return <div className="text-center py-20">Service not found.</div>;
+  }
 
-	return (
-
+  return (
     <div className="max-w-5xl mx-auto px-6 py-16">
       <h1 className="text-4xl font-heading mb-4">{service.title}</h1>
+      <h2 className="text-2xl font-semibold text-primary mb-4">{service.headline}</h2>
+      <p className="text-lg text-neutral-700 mb-6">{service.description}</p>
+
       <img
-        src={apartmentCorridorImg}
+        src={service.image}
         alt={service.title}
-        className="w-full h-80 object-cover rounded-xl mb-8"
+        className="w-full h-80 object-cover rounded-xl mb-10"
       />
 
-      {service.description.map((paragraph, index) => (
-        <p key={index} className="text-lg text-neutral-700 mb-4">
-          {paragraph}
-        </p>
-      ))}
-
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Key Benefits</h2>
-      <ul className="list-disc list-inside text-neutral-800">
-        {service.features.map((item, index) => (
-          <li key={index}>{item}</li>
+      <h3 className="text-2xl font-semibold mb-6">{service.whyTitle}</h3>
+      <div className="grid gap-6 md:grid-cols-3">
+        {service.benefits.map((item, index) => (
+          <div key={index} className="bg-neutral-100 p-6 rounded-lg shadow">
+            <h4 className="text-xl font-semibold mb-2">{item.title}</h4>
+            <p className="text-neutral-700 text-sm leading-relaxed">{item.text}</p>
+          </div>
         ))}
-      </ul>
-
-      <div className="mt-8">
-        <button className="bg-button-bg text-white px-6 py-3 rounded-md shadow hover:scale-105 transition">
-          Book This Service
-        </button>
       </div>
     </div>
   );
-};
+}

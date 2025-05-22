@@ -1,114 +1,68 @@
 [
   {
-    "id": "apartment-corridors",
-    "title": "Apartment Corridor Renovation",
-    "image": "/images/apartment-corridor.jpeg",
-    "description": [
-      "Modern and functional corridor renovations that elevate your building’s first impression.",
-      "We design with both aesthetics and foot-traffic in mind, ensuring safety and style."
-    ],
-    "features": [
-      "Durable, low-maintenance materials",
-      "Improved lighting and navigation",
-      "Custom floor and wall finishes"
-    ]
-  },
-  {
-    "id": "demolition",
-    "title": "Safe Demolition Services",
-    "image": "/images/demolition.jpg",
-    "description": [
-      "We provide safe and controlled demolition services to clear the way for new possibilities.",
-      "Our team ensures every removal is precise and environmentally responsible."
-    ],
-    "features": [
-      "Certified demolition experts",
-      "Debris removal included",
-      "Minimal disruption to surroundings"
-    ]
-  },
-  {
-    "id": "renovation",
-    "title": "Complete Renovation",
-    "image": "/images/renovation.jpg",
-    "description": [
-      "Full-scale renovation services that blend style, functionality, and your personal vision.",
-      "We manage every aspect of the project, from structure to finishing touches."
-    ],
-    "features": [
-      "End-to-end project management",
-      "Structural + aesthetic transformation",
-      "Budget and timeline transparency"
-    ]
-  },
-  {
-    "id": "framing",
-    "title": "Framing Services",
-    "image": "/images/framing.jpg",
-    "description": [
-      "Solid structural framing that ensures safety, precision, and long-term durability.",
-      "All framing is done to code and customized to your architectural plans."
-    ],
-    "features": [
-      "Wood or metal options",
-      "Precision measurements",
-      "Engineered to support large builds"
-    ]
-  },
-  {
     "id": "drywall",
-    "title": "Drywall Installation",
+    "title": "Drywall",
+    "headline": "Premium drywall installation with flawless precision",
+    "description": "We offer clean, efficient, and durable drywall installation for all types of interior spaces. Our team ensures smooth surfaces that are ready for finishing.",
     "image": "/images/drywall.jpg",
-    "description": [
-      "Smooth and seamless drywall installation for a flawless interior finish.",
-      "We specialize in fast and clean wall prep for any room or space."
-    ],
-    "features": [
-      "Quick turnaround",
-      "Patch & repair service available",
-      "Level 5 finish quality"
-    ]
-  },
-  {
-    "id": "plastering",
-    "title": "Plastering Services",
-    "image": "/images/plastering.jpg",
-    "description": [
-      "Expert plastering that delivers elegant, durable surfaces for walls and ceilings.",
-      "We offer both traditional and modern plaster finishes."
-    ],
-    "features": [
-      "Crack-resistant technique",
-      "Smooth or textured finish",
-      "Moisture control layers"
+    "whyTitle": "Why choose our drywall services?",
+    "benefits": [
+      {
+        "title": "Smooth Surface Finish",
+        "text": "Our skilled installers leave you with seamless, level-5 finish walls ideal for painting or wallpaper."
+      },
+      {
+        "title": "Fast and Clean Process",
+        "text": "We complete projects quickly with minimal disruption and always leave your space clean and ready."
+      },
+      {
+        "title": "Durable and Crack-Free",
+        "text": "We use high-quality materials and proven techniques to ensure long-lasting, crack-resistant results."
+      }
     ]
   },
   {
     "id": "painting",
-    "title": "Professional Painting",
+    "title": "Painting",
+    "headline": "Premium painting solutions for bold and lasting results",
+    "description": "Our professional painting service transforms your interiors with sharp lines and vibrant color. We tailor the experience to your vision and schedule.",
     "image": "/images/painting.jpg",
-    "description": [
-      "Bring your space to life with our premium painting services, tailored to your taste.",
-      "We use eco-friendly paints and apply with care and precision."
-    ],
-    "features": [
-      "Interior & exterior options",
-      "Custom color consultation",
-      "Clean and precise work"
+    "whyTitle": "Why choose our painting services?",
+    "benefits": [
+      {
+        "title": "Custom Color Matching",
+        "text": "We offer personalized color consultation and match your vision with perfect accuracy."
+      },
+      {
+        "title": "Eco-Friendly Materials",
+        "text": "Our premium paints are safe for your home and the environment while offering long-term durability."
+      },
+      {
+        "title": "Clean Application",
+        "text": "Our team applies paint with attention to detail and keeps your space neat and protected."
+      }
     ]
   },
   {
-    "id": "wallpaper-installation",
-    "title": "Wallpaper Installation",
-    "image": "/images/wallpaper.jpg",
-    "description": [
-      "Add personality to your rooms with our professional wallpaper application services.",
-      "We handle precise alignment, trimming, and adhesion with care."
-    ],
-    "features": [
-      "Wide range of patterns",
-      "Seamless installation",
-      "Removable and durable options"
+    "id": "demolition",
+    "title": "Demolition",
+    "headline": "Premium demolition service with safety and control",
+    "description": "We provide safe and efficient demolition services for all project scales. Our crew ensures minimal impact and complete debris removal.",
+    "image": "/images/demolition.jpg",
+    "whyTitle": "Why choose our demolition services?",
+    "benefits": [
+      {
+        "title": "Controlled Execution",
+        "text": "Each demolition is carefully planned to preserve surrounding structures and utilities."
+      },
+      {
+        "title": "Certified Team",
+        "text": "Our experienced staff is trained in safety standards and efficient site clearing methods."
+      },
+      {
+        "title": "Full Site Cleanup",
+        "text": "We handle all debris disposal and leave your project area clean and ready to build."
+      }
     ]
   }
 ]
