@@ -1,5 +1,27 @@
 [
   {
+    "id": "apartment-corridors",
+    "title": "Apartment Corridors",
+    "headline": "Premium corridor renovation with smart and elegant design",
+    "description": "We upgrade apartment corridors with lighting, flooring, and modern finishes to give a clean and professional impression for residents and visitors alike.",
+    "image": "/images/apartment-corridor.jpeg",
+    "whyTitle": "Why choose our corridor renovations?",
+    "benefits": [
+      {
+        "title": "Modern Visual Appeal",
+        "text": "We design corridors with attractive finishes and materials that enhance your building’s image."
+      },
+      {
+        "title": "Improved Functionality",
+        "text": "Our solutions improve lighting, navigation, and safety throughout your corridors."
+      },
+      {
+        "title": "Durable Finishes",
+        "text": "We use wear-resistant materials suited for high-traffic environments."
+      }
+    ]
+  },
+  {
     "id": "drywall",
     "title": "Drywall",
     "headline": "Premium drywall installation with flawless precision",
@@ -62,6 +84,94 @@
       {
         "title": "Full Site Cleanup",
         "text": "We handle all debris disposal and leave your project area clean and ready to build."
+      }
+    ]
+  },
+  {
+    "id": "framing",
+    "title": "Framing",
+    "headline": "Premium structural framing built for strength and precision",
+    "description": "We construct solid framing systems that are engineered for safety, precision, and compliance. Our work lays the foundation for every reliable structure.",
+    "image": "/images/framing.jpg",
+    "whyTitle": "Why choose our framing services?",
+    "benefits": [
+      {
+        "title": "Built to Code",
+        "text": "We meet or exceed local building standards to ensure structural integrity."
+      },
+      {
+        "title": "Precision Craftsmanship",
+        "text": "Our skilled crew delivers clean cuts and accurate measurements every time."
+      },
+      {
+        "title": "Adaptable for All Projects",
+        "text": "We provide framing for residential and commercial builds, large and small."
+      }
+    ]
+  },
+  {
+    "id": "plastering",
+    "title": "Plastering",
+    "headline": "Premium plastering for smooth, elegant surfaces",
+    "description": "We deliver high-quality plastering services for walls and ceilings using techniques that stand the test of time. From patching to full resurfacing, we ensure beauty and durability.",
+    "image": "/images/plastering.jpg",
+    "whyTitle": "Why choose our plastering services?",
+    "benefits": [
+      {
+        "title": "Elegant Finish",
+        "text": "Our finish is smooth, consistent, and paint-ready."
+      },
+      {
+        "title": "Crack-Resistant",
+        "text": "We apply plaster with techniques that reduce long-term cracking."
+      },
+      {
+        "title": "Perfect for Restorations",
+        "text": "Ideal for both modern renovations and historic restorations."
+      }
+    ]
+  },
+  {
+    "id": "wallpaper-installation",
+    "title": "Wallpaper Installation",
+    "headline": "Premium wallpaper installation with clean alignment",
+    "description": "We install wallpaper with seamless precision and great care, helping you express your unique style through your walls.",
+    "image": "/images/wallpaper.jpg",
+    "whyTitle": "Why choose our wallpaper installation?",
+    "benefits": [
+      {
+        "title": "Clean Alignment",
+        "text": "We ensure your wallpaper is applied without wrinkles or misalignment."
+      },
+      {
+        "title": "Wide Selection Ready",
+        "text": "You choose the design — we bring it to life professionally."
+      },
+      {
+        "title": "Removable Options",
+        "text": "We offer durable yet removable wallpaper if future updates are needed."
+      }
+    ]
+  },
+  {
+    "id": "flooring",
+    "title": "Flooring",
+    "headline": "Premium flooring installation for beauty and durability",
+    "description": "Our flooring services cover a wide range of materials and styles to match your space. We ensure precision installation and a clean, lasting finish.",
+    "image": "/images/flooring.jpg",
+    "whyTitle": "Why choose our flooring services?",
+    "benefits": [
+      {
+        "title": "Material Variety",
+        "text": "From hardwood to laminate to vinyl, we offer styles for every need and budget."
+      },
+      {
+        "title": "Clean and Level Installation",
+        "text": "Our team installs flooring with exact measurements and clean transitions between rooms."
+      },
+      {
+        "title": "Long-Term Durability",
+        "text": "We use quality products and expert methods to ensure your floors stay beautiful for years."
       }
     ]
   }

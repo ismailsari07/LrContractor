@@ -1,5 +1,6 @@
 import { Button } from "../components/Button";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 type ReservationProps = {
   
@@ -7,33 +8,39 @@ type ReservationProps = {
 
 export const Reservation = ({}: ReservationProps) => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-start gap-12 bg-background-light py-12 px-80">
+    <motion.div 
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: 20 }}
+      transition={{ duration: 0.3 }}
+      className="min-h-screen flex flex-col items-center justify-start gap-8 md:gap-12 xl:gap-16 bg-background-light py-8 md:py-12 xl:py-20 px-4 md:px-10 lg:px-20 xl:px-80"
+    >
       {/* Header */}
-      <div className="flex justify-evenly gap-20">
-        <div className="w-[50%] flex flex-col justify-start gap-2">
-          <div className="text-2xl font-heading font-semibold text-center">Book Your Renovation Appointment Today</div>
-          <div className="text-lg text-center">Let us know your preferences to schedule a consultation at your convenience.</div>
+      <div className="flex flex-col lg:flex-row justify-evenly gap-8 md:gap-16 xl:gap-20 w-full items-center">
+        <div className="w-full lg:w-1/2 flex flex-col justify-start gap-2">
+          <div className="text-xl md:text-2xl font-heading font-semibold text-center">Book Your Renovation Appointment Today</div>
+          <div className="text-base md:text-lg text-center">Let us know your preferences to schedule a consultation at your convenience.</div>
         </div>
 
-        <hr className="hidden h-40 w-[2px] bg-background-dark opacity-15 lg:block" />
+        <hr className="hidden lg:block h-40 w-[2px] bg-background-dark opacity-15" />
 
-        <div className="w-[50%] flex flex-col justify-start gap-2">
-          <div className="text-2xl md:text-2xl font-heading font-semibold text-black">Need help?<br />Call us directly &rarr;</div>
-          <div className="text-2xl md:text-3xl font-heading font-semibold text-green-600">
+        <div className="w-full lg:w-1/2 flex flex-col justify-start gap-2 mt-8 lg:mt-0">
+          <div className="text-xl md:text-2xl font-heading font-semibold text-black">Need help?<br />Call us directly &rarr;</div>
+          <div className="text-xl md:text-3xl font-heading font-semibold text-green-600">
             <a href="tel:+15551234567">
-              (555) 123-4567
+              +1 (647) 680-9164
             </a>
           </div>
         </div>
       </div>
 
       {/* Form and Help Section */}
-      <div className="flex flex-col md:flex-row gap-12 items-start justify-center w-full max-w-5xl mb-12">
+      <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-start justify-center w-full max-w-5xl mb-8 md:mb-12">
         {/* Form */}
         <form className="rounded-2xl flex flex-col gap-4 w-full">
-          <div className="flex gap-4">
-            <input type="text" placeholder="Full Name" className="w-1/2 bg-transparent border-2 border-background-dark rounded-xl px-3 py-2" />
-            <input type="email" placeholder="Email Address" className="w-1/2 bg-transparent border-2 border-background-dark rounded-xl px-3 py-2" />
+          <div className="flex flex-col md:flex-row gap-4">
+            <input type="text" placeholder="Full Name" className="w-full md:w-1/2 bg-transparent border-2 border-background-dark rounded-xl px-3 py-2" />
+            <input type="email" placeholder="Email Address" className="w-full md:w-1/2 bg-transparent border-2 border-background-dark rounded-xl px-3 py-2" />
           </div>
           <input type="tel" placeholder="Phone Number" className="w-full bg-transparent border-2 border-background-dark rounded-xl px-3 py-2" />
           <input type="text" placeholder="Preferred Date" className="w-full bg-transparent border-2 border-background-dark rounded-xl px-3 py-2" />
@@ -56,6 +63,6 @@ export const Reservation = ({}: ReservationProps) => {
           </div>
         </form>
       </div>
-    </div>
+    </motion.div>
   );
 };
