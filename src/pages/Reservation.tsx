@@ -103,7 +103,7 @@ export const Reservation = ({}: ReservationProps) => {
               <input type="email" name="email" value={form.email} onChange={handleChange} placeholder="Email Address" className="w-full md:w-1/2 bg-transparent border-2 border-background-dark rounded-xl px-3 py-2" required />
             </div>
             <input type="tel" name="phone" value={form.phone} onChange={handleChange} placeholder="Phone Number" className="w-full bg-transparent border-2 border-background-dark rounded-xl px-3 py-2" required />
-            <input type="date" name="date" value={form.date} onChange={handleChange} placeholder="January 1 2025" className="w-full bg-transparent border-2 border-background-dark rounded-xl px-3 py-2" required />
+            <input type="date" name="date" value={form.date || new Date().toISOString().split("T")[0]} onChange={handleChange} placeholder="January 1 2025" className="w-full bg-transparent border-2 border-background-dark rounded-xl px-3 py-2" required />
             <select name="service" value={form.service} onChange={handleChange} className="w-full bg-transparent border-2 border-background-dark rounded-xl px-3 py-2" required>
               <option value="">Select Service</option>
               <option value="painting">Painting</option>
