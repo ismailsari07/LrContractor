@@ -4,7 +4,7 @@
     "title": "Apartment Corridors",
     "headline": "Premium corridor renovation with smart and elegant design",
     "description": "We upgrade apartment corridors with lighting, flooring, and modern finishes to give a clean and professional impression for residents and visitors alike.",
-    "image": "/images/apartment-corridor.jpeg",
+    "image": "/images/apartment-corridor.webp",
     "whyTitle": "Why choose our corridor renovations?",
     "benefits": [
       {
@@ -26,7 +26,7 @@
     "title": "Drywall",
     "headline": "Premium drywall installation with flawless precision",
     "description": "We offer clean, efficient, and durable drywall installation for all types of interior spaces. Our team ensures smooth surfaces that are ready for finishing.",
-    "image": "/images/drywall.jpg",
+    "image": "/images/drywall.webp",
     "whyTitle": "Why choose our drywall services?",
     "benefits": [
       {
@@ -48,7 +48,7 @@
     "title": "Painting",
     "headline": "Premium painting solutions for bold and lasting results",
     "description": "Our professional painting service transforms your interiors with sharp lines and vibrant color. We tailor the experience to your vision and schedule.",
-    "image": "/images/painting.jpg",
+    "image": "/images/painting.webp",
     "whyTitle": "Why choose our painting services?",
     "benefits": [
       {
@@ -70,7 +70,7 @@
     "title": "Demolition",
     "headline": "Premium demolition service with safety and control",
     "description": "We provide safe and efficient demolition services for all project scales. Our crew ensures minimal impact and complete debris removal.",
-    "image": "/images/demolition.jpg",
+    "image": "/images/demolition.webp",
     "whyTitle": "Why choose our demolition services?",
     "benefits": [
       {
@@ -92,7 +92,7 @@
     "title": "Framing",
     "headline": "Premium structural framing built for strength and precision",
     "description": "We construct solid framing systems that are engineered for safety, precision, and compliance. Our work lays the foundation for every reliable structure.",
-    "image": "/images/framing.jpg",
+    "image": "/images/framing.webp",
     "whyTitle": "Why choose our framing services?",
     "benefits": [
       {
@@ -114,7 +114,7 @@
     "title": "Plastering",
     "headline": "Premium plastering for smooth, elegant surfaces",
     "description": "We deliver high-quality plastering services for walls and ceilings using techniques that stand the test of time. From patching to full resurfacing, we ensure beauty and durability.",
-    "image": "/images/plastering.jpg",
+    "image": "/images/plastering.webp",
     "whyTitle": "Why choose our plastering services?",
     "benefits": [
       {
@@ -136,7 +136,7 @@
     "title": "Wallpaper Installation",
     "headline": "Premium wallpaper installation with clean alignment",
     "description": "We install wallpaper with seamless precision and great care, helping you express your unique style through your walls.",
-    "image": "/images/wallpaper.jpg",
+    "image": "/images/wallpaper.webp",
     "whyTitle": "Why choose our wallpaper installation?",
     "benefits": [
       {
@@ -158,7 +158,7 @@
     "title": "Flooring",
     "headline": "Premium flooring installation for beauty and durability",
     "description": "Our flooring services cover a wide range of materials and styles to match your space. We ensure precision installation and a clean, lasting finish.",
-    "image": "/images/flooring.jpg",
+    "image": "/images/flooring.webp",
     "whyTitle": "Why choose our flooring services?",
     "benefits": [
       {
