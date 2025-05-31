@@ -11,10 +11,11 @@ export const Navbar = ({  }: NavbarProps) => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <header className="w-full">
-      <div className="w-full flex flex-row items-center justify-between py-4 px-4 md:px-10 lg:px-20 xl:px-60">
+      <div className="w-full flex flex-row items-center justify-between py-4 px-4 md:px-10 lg:px-20 xl:px-60 mt-[-20px]">
         {/* Logo */}
-        <Link to="/" className="text-2xl md:text-3xl xl:text-4xl font-semibold text-text">
-          LrContractor
+        <Link to="/" className="flex items-center text-2xl xl:text-3xl font-semibold text-text">
+          <img src="/images/logo.png" className="w-20 h-28" alt="logo" />
+          LrContractors
         </Link>
 
         {/* Hamburger Icon (Mobile Only) */}
