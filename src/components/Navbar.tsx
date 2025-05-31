@@ -57,7 +57,7 @@ export const Navbar = ({  }: NavbarProps) => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
           transition={{ duration: 0.3 }}
-          className="md:hidden w-full bg-background-light shadow-lg absolute left-0 top-[64px] z-50 animate-fade-in flex flex-col items-center gap-4 py-6">
+          className="md:hidden w-full bg-background-light shadow-lg absolute left-0 top-[84px] z-50 animate-fade-in flex flex-col items-center gap-4 py-6">
           <Link to="/services" className="text-text hover:text-primary-600 transition text-lg font-heading" onClick={() => setMenuOpen(false)}>
             Our Services
           </Link>
