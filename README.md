@@ -2,7 +2,7 @@
 
 A modern and responsive React-based website built for a renovation and construction business located in Canada. This site allows users to browse services, view detailed sections, and easily contact the company for bookings or quotes.
 
-[Visit the live site](https://www.lrcontractors.com)
+[Visit the live site](lrcontractors.com)
 
 ## 🚀 Tech Stack
 
